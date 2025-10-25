@@ -1,1 +1,25 @@
-This Repo is meant for building utilities which helps in creating scalable, robust & reliable Deep Learning Systems.
+# Deep Learning Utilities
+
+This repository is dedicated to building utilities that facilitate the creation of scalable, robust, and reliable Deep Learning Systems.
+
+## Utilities
+
+### `utils/FeatureEncoder.py`
+
+This module provides two key utilities:
+
+- **`FeatureSchema`**: Helps in maintaining feature metadata such as name, description, type, and dimensions.
+- **`FeatureEncoder`**: Designed to take a `FeatureSchema` as input.
+
+#### Benefits of `FeatureEncoder`
+
+- **Reliable Data**: Ensures data consistency for the model, as features are stored as a dictionary, eliminating concerns about input order.
+- **Robustness**: Easily accommodates new features by simply adding a new item to the feature schema. This also allows leveraging previous checkpoint weights for iterative training.
+
+#### Testing
+
+You can test the `utils/FeatureEncoder.py` utility by running `inference_test1.py`.
+
+## Upcoming Features
+
+Utilities regarding iterative training will be released soon.
