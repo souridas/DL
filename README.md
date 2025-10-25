@@ -18,7 +18,7 @@ This module provides two key utilities:
 
 #### Testing
 
-You can test the `utils/FeatureEncoder.py` utility by running `inference_test1.py`.
+You can test the `utils/FeatureEncoder.py` utility by running `examples/inference_test1.py`.
 
 ## Upcoming Features
 
