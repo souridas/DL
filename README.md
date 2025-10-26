@@ -18,8 +18,12 @@ This module provides two key utilities:
 
 #### Testing
 
-You can test the `utils/FeatureEncoder.py` utility by running `examples/inference_test1.py`.
+You can test the `utils/FeatureEncoder.py` utility by running `examples/test1.py`.
 
-## Upcoming Features
+### `utils/ContinualTraining.py`
 
-Utilities regarding iterative training will be released soon.
+This module provides utilities for continual training of deep learning models when new FeatureSchema changes or Model architecture changes.
+
+#### Testing
+
+You can test the `utils/ContinualTraining.py` utility by running `examples/test2.py`.
